@@ -7,7 +7,7 @@ class CRUD
 	
 	function __construct()
 	{
-		$con = new PDO("mysql:host=localhost;dbname=luca11_brasil_tour", "luca11_brasil", "projetopcs2016");
+		$con = new PDO("mysql:host=localhost;dbname=luca11_brasil_tour", "luca11_brasil", "***********");
 		$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		$this->con = $con;
 	}
